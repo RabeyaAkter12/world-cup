@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Sansita+Swashed&display=swap');
+
+/*---------Google fonts-----------*/
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.banner-main p {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.banner-main h1 {
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.banner-container {
+    color: white;
+    display: flex;
+    background-color: black;
+    width: 1100px;
+    height: 500px;
+    align-items: center;
+    padding-left: 60px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: red;
+    color: wheat;
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition-duration: 0, 4s;
+}
+
+.watching {
+    width: 130px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+.watching:hover {
+    width: 200px;
+    height: 120px;
+    color: rgb(231, 9, 231);
+    background-color: blue;
+    transition: width 5s;
+
+}
+
+.banner img {
+    width: 450px;
+    height: 500px;
+    padding: 30px;
+}
